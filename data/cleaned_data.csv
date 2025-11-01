@@ -1,5 +1,9 @@
-Name,Age,Score
-Yabets,23,88
-Jabez,25,92
-Samuel,22,79
-Yohanns,24,85
+ID,Name,Gender,Age,City,Salary
+1,Yabets,Male,24.0,Addis Ababa,5000.0
+2,Jabez,Male,23.0,Hawassa,4500.0
+3,Samuel,Male,25.0,Addis Ababa,6000.0
+5,Hanna,Female,25.0,Bahir Dar,5500.0
+6,Rahel,Female,25.0,Addis Ababa,4685.714285714285
+7,Abel,Male,28.0,Gondar,7000.0
+8,Bethlehem,Female,22.0,Hawassa,4800.0
+10,Misrak,Unknown,27.0,Dire Dawa,4685.714285714285
