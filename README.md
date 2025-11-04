@@ -52,8 +52,11 @@ data-cleaning-and-visualization/
 ---
 
 Install required libraries:
+
 ```bash
 pip install pandas matplotlib
+
+```
 
 ```bash
 pip install pandas matplotlib seaborn
@@ -72,7 +75,7 @@ cd data-cleaning-and-visualization
 
 ---
 
-1: Data Cleaning
+### 1: Data Cleaning
 
 Run the cleaning script to process the raw dataset:
 
@@ -86,8 +89,11 @@ This script:
 
   - Saves a clean version to `data/cleaned_data.csv`
 
-🧾 Before and After Data Cleaning
-🔹 Before Cleaning
+
+
+#### 🧾 Before and After Data Cleaning
+
+##### 🔹 Before Cleaning
 
   - Missing values in several columns.
 
@@ -97,7 +103,7 @@ This script:
 
   - Outliers that distort visualization.
 
-🔹 After Cleaning
+##### 🔹 After Cleaning
 
   - All missing values handled or filled appropriately.
 
@@ -109,7 +115,7 @@ This script:
 
 ---
 
-2: Data Visualization
+### 2: Data Visualization
 
 After cleaning, visualizations such as bar charts and histograms are generated to provide meaningful insights into the dataset.
 All generated images are automatically saved in the plots/ directory.
@@ -121,19 +127,24 @@ Run the visualization script to generate visual insights:
 
 This creates several charts (saved automatically under plots/):
 
-  - Age Distribution
+<table>
+  <tr>
+    <td><img src="plots/age_distribution.png" width="300" /></td>
+    <td><img src="plots/avg_salary_by_city.png" width="300" /></td>
+  </tr>
+  <tr>
+    <td><img src="plots/salary_by_gender.png" width="300" /></td>
+    <td><img src="plots/correlation_matrix.png" width="300" /></td>
+  </tr>
+</table>
 
-  - Salary by City
-
-  - Gender Ratio
-
-  - Correlation Matrix
 
 ---
 
-3. Interactive Notebook
+### 3. Interactive Notebook
 
 Open `notebooks/analysis.ipynb` to visualize the cleaned data.
+
 or  `jupyter notebook notebooks/analysis.ipynb`
 
 The notebook provides:
@@ -146,7 +157,7 @@ The notebook provides:
 
 ---
 
-📊 Results & Discussion
+### 📊 Results & Discussion
 
 The analysis produced several visual insights:
 
@@ -169,7 +180,8 @@ Below is the screenshot showing my Git commit history for this project:
 
 ---
 
-##🤝 Contributing
+
+## 🤝 Contributing
 
 Contributions are welcome! To contribute:
 
@@ -185,13 +197,13 @@ Contributions are welcome! To contribute:
 
 
 
-##📄 License
+## 📄 License
 
 This project is licensed under the MIT License Copyright (c) 2025 Yabets Desalegn
 
 
 
-##🙏 Acknowledgments
+## 🙏 Acknowledgments
 
   - Python libraries: pandas, matplotlib, seaborn
 
@@ -202,9 +214,12 @@ This project is licensed under the MIT License Copyright (c) 2025 Yabets Desaleg
 
 
 
-##👤 Author
+## 👤 Author
 
 Name: Yabets Desalegn
+
 Program: MSc Data Science
+
 University: Addis Ababa University
+
 Year: 2025
