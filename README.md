@@ -23,7 +23,7 @@ It also showcases how version control using **Git** and **GitHub** supports coll
 ## 🗂️ Project Structure
 
 **Folders and Files**
-
+```
 data-cleaning-and-visualization/
 │
 ├── data/ → Contains the sample CSV dataset
@@ -35,8 +35,9 @@ data-cleaning-and-visualization/
 ├── plots/ → Contains generated visualization images
 ├── git_log_screenshot.png → Git log screenshot proof
 ├── requirements.txt → Required Python libraries
-└── README.md → Project documentation
+└── README.md → Project documentation ```
 
+---
 
 ## ⚙️ Technologies & Requirements
 
@@ -47,6 +48,7 @@ data-cleaning-and-visualization/
   - `seaborn` – for advanced visualizations  
   - `os` – for handling file paths
 
+---
 
 Install required libraries:
 ```bash
@@ -55,12 +57,17 @@ pip install pandas matplotlib
 ```bash
 pip install pandas matplotlib seaborn
 
+```
+---
+
 ##  Usage with how to run 
 
 How to Run the Project
-
+```
 git clone https://github.com/Yabets-art/data-cleaning-and-visualization.git
 cd data-cleaning-and-visualization
+```
+---
 
 1: Data Cleaning
 
@@ -97,8 +104,7 @@ Duplicates removed.
 
 Clean and structured data ready for visualization.
 
-
-
+---
 
 2: Data Visualization
 
@@ -120,6 +126,7 @@ This creates several charts (saved automatically under plots/):
 
     - Correlation Matrix
 
+---
 
 3. Interactive Notebook
 
@@ -133,6 +140,8 @@ Inline tables and summary statistics
 Interactive plots using matplotlib and seaborn
 
 Step-by-step explanations of data cleaning and visualization
+
+---
 
 📊 Results & Discussion
 
@@ -148,15 +157,16 @@ Correlation Matrix highlights a positive relationship between Age and Salary.
 
 These findings demonstrate how data cleaning improves analytical accuracy and clarity in visualization.
 
-
+---
 
 ## Git Log Proof
 Below is the screenshot showing my Git commit history for this project:
 
 ![Git Log Screenshot](./git_log_screenshot.png)
 
+---
 
-🤝 Contributing
+##🤝 Contributing
 
 Contributions are welcome! To contribute:
 
@@ -172,13 +182,13 @@ Open a Pull Request
 
 
 
-📄 License
+##📄 License
 
 This project is licensed under the MIT License Copyright (c) 2025 Yabets Desalegn
 
 
 
-🙏 Acknowledgments
+##🙏 Acknowledgments
 
 Python libraries: pandas, matplotlib, seaborn
 
@@ -189,7 +199,7 @@ Git & GitHub workflow tutorials for version control best practices
 
 
 
-👤 Author
+##👤 Author
 
 Name: Yabets Desalegn
 Program: MSc Data Science
