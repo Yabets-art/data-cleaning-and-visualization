@@ -7,6 +7,7 @@ It is developed as part of my Git & GitHub assignment in the MSc Data Science pr
 - **data/** → contains sample CSV dataset
 - **scripts/** → Python script for cleaning the data
 - **notebooks/** → Jupyter notebook for visualization
+- - `plots/` → Contains generated visualization images
 
 ## Requirements
 - Python 3
@@ -16,3 +17,8 @@ It is developed as part of my Git & GitHub assignment in the MSc Data Science pr
 ## Usage
 1. Run `scripts/clean_data.py` to clean the dataset.
 2. Open `notebooks/analysis.ipynb` to visualize the cleaned data.
+
+## Git Log Proof
+Below is the screenshot showing my Git commit history for this project:
+
+![Git Log Screenshot](./git_log_screenshot.png)
