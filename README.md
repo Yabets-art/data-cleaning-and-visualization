@@ -93,25 +93,7 @@ This script:
 
 #### 🧾 Before and After Data Cleaning
 
-##### 🔹 Before Cleaning
-
-  - Missing values in several columns.
-
-  - Inconsistent formats (e.g., text instead of numbers).
-
-  - Duplicate records.
-
-  - Outliers that distort visualization.
-
-##### 🔹 After Cleaning
-
-  - All missing values handled or filled appropriately.
-
-  - Data types standardized.
-
-  - Duplicates removed.
-
-  - Clean and structured data ready for visualization.
+<table> <tr> <th>🔹 Before Cleaning</th> <th>🔹 After Cleaning</th> </tr> <tr> <td> <ul> <li>Missing values in several columns.</li> <li>Inconsistent formats (e.g., text instead of numbers).</li> <li>Duplicate records.</li> <li>Outliers that distort visualization.</li> </ul> </td> <td> <ul> <li>All missing values handled or filled appropriately.</li> <li>Data types standardized.</li> <li>Duplicates removed.</li> <li>Clean and structured data ready for visualization.</li> </ul> </td> </tr> </table>
 
 ---
 
