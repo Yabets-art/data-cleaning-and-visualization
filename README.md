@@ -35,8 +35,9 @@ data-cleaning-and-visualization/
 ├── plots/ → Contains generated visualization images
 ├── git_log_screenshot.png → Git log screenshot proof
 ├── requirements.txt → Required Python libraries
-└── README.md → Project documentation ```
+└── README.md → Project documentation
 
+```
 ---
 
 ## ⚙️ Technologies & Requirements
@@ -66,7 +67,9 @@ How to Run the Project
 ```
 git clone https://github.com/Yabets-art/data-cleaning-and-visualization.git
 cd data-cleaning-and-visualization
+
 ```
+
 ---
 
 1: Data Cleaning
@@ -77,32 +80,32 @@ Run the cleaning script to process the raw dataset:
 
 This script:
 
-    - Reads the raw data from `data/sample_data.csv`
+  - Reads the raw data from `data/sample_data.csv`
 
-    - Removes inconsistencies (e.g., duplicates, capitalization)
+  - Removes inconsistencies (e.g., duplicates, capitalization)
 
-    - Saves a clean version to `data/cleaned_data.csv`
+  - Saves a clean version to `data/cleaned_data.csv`
 
 🧾 Before and After Data Cleaning
 🔹 Before Cleaning
 
-Missing values in several columns.
+  - Missing values in several columns.
 
-Inconsistent formats (e.g., text instead of numbers).
+  - Inconsistent formats (e.g., text instead of numbers).
 
-Duplicate records.
+  - Duplicate records.
 
-Outliers that distort visualization.
+  - Outliers that distort visualization.
 
 🔹 After Cleaning
 
-All missing values handled or filled appropriately.
+  - All missing values handled or filled appropriately.
 
-Data types standardized.
+  - Data types standardized.
 
-Duplicates removed.
+  - Duplicates removed.
 
-Clean and structured data ready for visualization.
+  - Clean and structured data ready for visualization.
 
 ---
 
@@ -118,13 +121,13 @@ Run the visualization script to generate visual insights:
 
 This creates several charts (saved automatically under plots/):
 
-    - Age Distribution
+  - Age Distribution
 
-    - Salary by City
+  - Salary by City
 
-    - Gender Ratio
+  - Gender Ratio
 
-    - Correlation Matrix
+  - Correlation Matrix
 
 ---
 
@@ -135,11 +138,11 @@ or  `jupyter notebook notebooks/analysis.ipynb`
 
 The notebook provides:
 
-Inline tables and summary statistics
+  - Inline tables and summary statistics
 
-Interactive plots using matplotlib and seaborn
+  - Interactive plots using matplotlib and seaborn
 
-Step-by-step explanations of data cleaning and visualization
+  - Step-by-step explanations of data cleaning and visualization
 
 ---
 
@@ -147,15 +150,15 @@ Step-by-step explanations of data cleaning and visualization
 
 The analysis produced several visual insights:
 
-Age Distribution shows most individuals are between 22–28 years old.
+  - Age Distribution shows most individuals are between 22–28 years old.
 
-Salary by City indicates higher salaries concentrated in Addis Ababa.
+  - Salary by City indicates higher salaries concentrated in Addis Ababa.
 
-Gender Ratio visual reveals a balanced but slightly male-dominant dataset.
+  - Gender Ratio visual reveals a balanced but slightly male-dominant dataset.
 
-Correlation Matrix highlights a positive relationship between Age and Salary.
+  - Correlation Matrix highlights a positive relationship between Age and Salary.
 
-These findings demonstrate how data cleaning improves analytical accuracy and clarity in visualization.
+  - These findings demonstrate how data cleaning improves analytical accuracy and clarity in visualization.
 
 ---
 
@@ -170,15 +173,15 @@ Below is the screenshot showing my Git commit history for this project:
 
 Contributions are welcome! To contribute:
 
-Fork the repository
+  - Fork the repository
 
-Create a new branch for your feature (git checkout -b feature-name)
+  - Create a new branch for your feature (git checkout -b feature-name)
 
-Commit your changes (git commit -m "Add feature")
+  - Commit your changes (git commit -m "Add feature")
 
-Push to the branch (git push origin feature-name)
+  - Push to the branch (git push origin feature-name)
 
-Open a Pull Request
+  - Open a Pull Request
 
 
 
@@ -190,11 +193,11 @@ This project is licensed under the MIT License Copyright (c) 2025 Yabets Desaleg
 
 ##🙏 Acknowledgments
 
-Python libraries: pandas, matplotlib, seaborn
+  - Python libraries: pandas, matplotlib, seaborn
 
-Jupyter Notebook for interactive development
+  - Jupyter Notebook for interactive development
 
-Git & GitHub workflow tutorials for version control best practices
+  - Git & GitHub workflow tutorials for version control best practices
 
 
 
