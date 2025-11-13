@@ -1,10 +1,5 @@
 # 🧹 Data Cleaning and Visualization
 
-This project demonstrates **basic data cleaning and visualization using Python**.  
-It was developed as part of my **Git & GitHub assignment** in the **MSc Data Science** program at **Addis Ababa University**.
-
----
-
 ## 📄 Project Overview
 
 The main goal of this project is to show how **raw, unstructured data** can be transformed into **clean and meaningful information** through systematic cleaning and visualization techniques.  
